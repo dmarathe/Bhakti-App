@@ -1,2 +1,2 @@
-#Bhakti-App
-![](bhakti-app.gif)
+# Bhakti-App
+![](bhakti-app.gif =250X250)
