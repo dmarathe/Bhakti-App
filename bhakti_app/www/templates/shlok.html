@@ -1,0 +1,25 @@
+<ion-view view-title={{title}}>
+  <ion-content id="view">
+    <div class="list card">
+
+      <div class="item item-body">
+        
+        <img  class="full-image" ng-src={{shlokImage}}>
+       
+        <p>
+          <pre>{{shlok}}</pre>
+        </p>
+      </div>
+      <div class = "row center">
+        <div class="col text-left" ng-click="loadPrevious()" ng-hide="shlokNumber === 1">
+
+            <a class="button icon-left ion-chevron-left button-calm">मागील </a>
+        </div>
+        <div class="col text-right" ng-click="loadNext()" ng-hide="shlokNumber ===length">
+
+            <a class="button icon-right ion-chevron-right button-calm" >पुढील </a>
+        </div>
+
+    </div>
+  </ion-content>
+</ion-view>

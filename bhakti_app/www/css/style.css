@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+div .wrapper {
+    max-width:500px;
+    max-height:500px;
+}
+
+img .artistPic {
+    max-height: 100%;
+    max-width:100%;
+    width: auto;
+}
